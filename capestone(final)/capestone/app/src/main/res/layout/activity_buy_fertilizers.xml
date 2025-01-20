@@ -1,0 +1,51 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundfarmer">
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Toolbar with back button and title -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp"
+
+            android:elevation="4dp">
+
+    <!-- Back Arrow -->
+            <ImageView
+                android:id="@+id/backButton"
+                android:layout_width="51dp"
+                android:layout_height="49dp"
+                android:clickable="true"
+                android:contentDescription="Back"
+                android:focusable="true"
+                android:padding="8dp"
+                android:src="@drawable/backbtn" />
+
+            <TextView
+                android:layout_width="276dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="8dp"
+                android:gravity="center"
+                android:text="VIEW FERTILIZERS"
+                android:textColor="#0D0C0C"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+            <LinearLayout
+        android:id="@+id/fertilizerContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="8dp">
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

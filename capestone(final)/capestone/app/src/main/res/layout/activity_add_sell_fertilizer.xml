@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/backgroundfarmer">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="16dp"
+
+        android:elevation="4dp">
+    <!-- Back Arrow -->
+        <ImageView
+            android:id="@+id/backButton"
+            android:layout_width="51dp"
+            android:layout_height="45dp"
+            android:layout_gravity="start"
+            android:clickable="true"
+            android:contentDescription="Back"
+            android:padding="8dp"
+            android:src="@drawable/backbtn" />
+
+        <TextView
+            android:layout_width="276dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:text="ADD FERTILIZERS"
+            android:textColor="#0F0E0E"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    <!-- Title -->
+</LinearLayout>
+
+    <!-- Input Fields -->
+    <EditText
+        android:id="@+id/etFertilizerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:hint="Fertilizer Name"
+        android:padding="10dp"
+        android:textColor="#050505" />
+
+    <EditText
+        android:id="@+id/etFertilizerQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:hint="Fertilizer Quantity"
+        android:padding="10dp"
+        android:textColor="#0B0B0B" />
+
+    <EditText
+        android:id="@+id/etFertilizerPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Fertilizer Price"
+        android:padding="10dp"
+        android:textColor="#050505" />
+
+    <!-- Image Selection -->
+    <ImageView
+        android:id="@+id/fertilizerImageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="16dp"
+        android:background="#E0E0E0"
+        android:scaleType="centerCrop" />
+
+    <Button
+        android:id="@+id/btnSelectImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#25A629"
+        android:text="Select Image"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#25A629"
+        android:text="Add Fertilizer"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+</LinearLayout>

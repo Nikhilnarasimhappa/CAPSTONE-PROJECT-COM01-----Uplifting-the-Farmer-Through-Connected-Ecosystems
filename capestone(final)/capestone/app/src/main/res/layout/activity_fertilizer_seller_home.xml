@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/soil"
+    android:padding="16dp"
+    >
+
+    <!-- Icon ImageView -->
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:text="Welcome to Fertilizer's and Machineries Portal"
+        android:textColor="#0D0C0C"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/portalIcon"
+        android:layout_width="159dp"
+        android:layout_height="174dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:contentDescription="Portal Icon"
+        android:src="@drawable/icon" />
+
+    <!-- Button 1: Add and Sell Fertilizer -->
+    <Button
+        android:id="@+id/btnAddSellFertilizer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#160B0F"
+        android:text="Add and Sell Fertilizer"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"/>
+
+    <!-- Button 2: Add and Sell Machinery -->
+    <Button
+        android:id="@+id/btnAddSellMachinery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#160B0F"
+        android:text="Add and Sell Machinery"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"/>
+
+    <!-- Button 3: History -->
+    <Button
+        android:id="@+id/btnHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#160B0F"
+        android:text="History"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"/>
+
+    <!-- Button 4: Logout -->
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#160B0F"
+        android:text="Logout"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>

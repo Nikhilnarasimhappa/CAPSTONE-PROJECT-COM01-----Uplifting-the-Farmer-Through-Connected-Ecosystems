@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "565507910053",
+    "project_id": "agriculture-a9de1",
+    "storage_bucket": "agriculture-a9de1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565507910053:android:61b11da00a502c3419a04c",
+        "android_client_info": {
+          "package_name": "com.company.capestone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "565507910053-e2fj1k1hnue4jcu25kphppeqv47iq8ma.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCODNZYXFxvCTjuOAnY8mWea-ggQotrMLw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "565507910053-e2fj1k1hnue4jcu25kphppeqv47iq8ma.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565507910053:android:4430c99a2f1fca5919a04c",
+        "android_client_info": {
+          "package_name": "com.example.farmer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "565507910053-e2fj1k1hnue4jcu25kphppeqv47iq8ma.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCODNZYXFxvCTjuOAnY8mWea-ggQotrMLw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "565507910053-e2fj1k1hnue4jcu25kphppeqv47iq8ma.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
